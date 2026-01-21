@@ -1,6 +1,3 @@
-/* =========================
-   GLOBAL RESET & BASE
-========================= */
 * {
   margin: 0;
   padding: 0;
@@ -18,9 +15,7 @@ body {
   color: #fff;
 }
 
-/* =========================
-   HEADER
-========================= */
+
 header {
   height: 56px;
   background: #0f0f0f;
@@ -67,9 +62,7 @@ header {
   margin-right: -4px;
 }
 
-/* =========================
-   SEARCH BAR
-========================= */
+
 .search {
   width: 500px;
   display: flex;
@@ -98,9 +91,6 @@ header {
   width: 22px;
 }
 
-/* =========================
-   HEADER RIGHT
-========================= */
 .right div {
   margin-left: 18px;
   cursor: pointer;
@@ -113,9 +103,7 @@ header {
   object-fit: cover;
 }
 
-/* =========================
-   CREATE BUTTON
-========================= */
+
 .create {
   display: flex;
   align-items: center;
@@ -130,16 +118,10 @@ header {
   width: 25px;
 }
 
-/* =========================
-   LAYOUT
-========================= */
 .container {
   display: flex;
 }
 
-/* =========================
-   SIDEBAR
-========================= */
 aside {
   width: 240px;
   background: #0f0f0f;
@@ -160,9 +142,6 @@ aside {
   background: #272727;
 }
 
-/* =========================
-   MAIN CONTENT
-========================= */
 main {
   flex: 1;
   padding: 24px;
@@ -194,9 +173,6 @@ main {
   color: #000;
 }
 
-/* =========================
-   VIDEO GRID
-========================= */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -235,9 +211,6 @@ main {
   color: #aaa;
 }
 
-/* =========================
-   TABLET (≤1024px)
-========================= */
 @media (max-width: 1024px) {
 
   aside {
@@ -258,9 +231,6 @@ main {
   }
 }
 
-/* =========================
-   PHONE (≤768px)
-========================= */
 @media (max-width: 768px) {
 
   header {
@@ -284,9 +254,9 @@ main {
   .search button {
     width: 48px;
   }
-.logo {
+/* .logo {
    color: red;
-}
+} */
 
   .create {
     display: none;
@@ -306,9 +276,6 @@ main {
   }
 }
 
-/* =========================
-   SMALL PHONES (≤480px)
-========================= */
 @media (max-width: 480px) {
 
   .logo {
@@ -318,7 +285,9 @@ main {
   .logo span {
     display: none;
   }
-
+  .logo {
+   color: rgb(245, 42, 42);
+}
   .chip {
     font-size: 13px;
     padding: 5px 10px;
@@ -333,12 +302,8 @@ main {
   }
 }
 
-/* =========================
-   TOUCH DEVICE FIX
-========================= */
 @media (hover: none) {
   .video:hover {
     background: none;
   }
 }
-
