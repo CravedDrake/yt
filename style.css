@@ -284,6 +284,9 @@ main {
   .search button {
     width: 48px;
   }
+.logo {
+   color: red;
+}
 
   .create {
     display: none;
@@ -338,3 +341,4 @@ main {
     background: none;
   }
 }
+
