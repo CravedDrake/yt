@@ -288,9 +288,9 @@ main {
   .logo {
    color: rgb(245, 42, 42);
 }
-  .header{
+  /* .header{
     word-spacing: 3px;
-  }
+  } */
   .chip {
     font-size: 13px;
     padding: 5px 10px;
@@ -310,4 +310,5 @@ main {
     background: none;
   }
 }
+
 
